@@ -1,0 +1,54 @@
+
+#menu
+{
+    font-family: verdana, sans-serif;
+    font-style: italic;
+    letter-spacing: 0.2pt;
+    word-spacing: 4.6pt;
+    line-height: 2.2;
+    background-color:#FFD700;
+    height:800px;
+    width:200px;
+    float:left;
+}
+
+.text
+{
+    font-size: 18px;
+}
+
+#headline
+{
+    color: #2c271f;
+
+}
+#header
+{
+    background-color:#FFA500;
+}
+#passage
+{
+    width: auto;
+    height:800px;
+    background-color: antiquewhite;
+}
+#p1
+{
+    font-family: arial, sans-serif;
+ font-size: 18px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 0.2pt;
+word-spacing: 4.6pt;
+line-height: 2.2;
+
+}
+#p2
+{
+    font-family: arial, sans-serif;
+font-size: 18px;
+letter-spacing: 0.2pt;
+word-spacing: 4.6pt;
+line-height: 2.2;
+
+}
