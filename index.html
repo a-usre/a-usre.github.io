@@ -3,160 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="22050226 楼乐天">
-    <title>个人简历</title>
+    <title>index</title>
+    <script src="./posts/js/global.js"></script>
 </head>
-<body>
-    <section>
-    <h1>基本介绍</h1>
-    <ul>
-        <li>姓名：楼乐天</li>
-        <li>性别：男</li>
-        <li>出生年月：2003-11</li>
-        <li>籍贯：浙江</li>
-        <li>政治面貌：无党派民主人士</li>
-        
-    </ul>
-
-    <h1>自我介绍</h1>
-    <p>本人就读于杭州电子科技大学的计算
-        机学院，在专业分流中选择了软件工
-        程专业。本人成绩一般但仍旧希望学
-        习更多知识，提升自身实力，故在本
-        学期选择了web前端开发课程，希望
-        在这里能有所收获。
-    </p>
-    <h1><a href="home/home.html">实践作业进度展示。</a></h1>
-    <h1>所获院级及以上奖项列表</h1>
-    <table border="2">
-        <thead>
-            <th>时间</th>
-            <th>奖项名</th>
-
-        </thead>
-        <tbody>
-            <td>
-                NULL
-            </td>
-            <td>
-                NILL
-            </td>
-
-        </tbody>
-    </table>
-    <h1>已发表论文或专利列表</h1>
-    <table border="2">
-        <thead>
-            <th>时间</th>
-            <th>项目名</th>
-
-        </thead>
-        <tbody>
-            <td>
-                NULL
-            </td>
-            <td>
-                NILL
-            </td>
-
-        </tbody>
-    </table>
-    <h1>喜爱的作品</h1>
-    <pre>
-                登金陵凤凰台
-
-        凤凰台上凤凰游，凤去台空江自流。
-        吴宫花草埋幽径，晋代衣冠成古丘。
-        三山半落青天外，二水中分白鹭洲。
-        总为浮云能蔽日，长安不见使人愁。
-
-    </pre>
-</section>
-<section>
-    <h1>本页源码<sub>(不包括“本页源码”)</sub></h1>
-    <code>
-        &lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta name="author" content="22050226 楼乐天"&gt;
-    &lt;title&gt;个人简历&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;section&gt;
-    &lt;h1&gt;基本介绍&lt;/h1&gt;
-    &lt;ul&gt;
-        &lt;li&gt;姓名：楼乐天&lt;/li&gt;
-        &lt;li&gt;性别：男&lt;/li&gt;
-        &lt;li&gt;出生年月：2003-11&lt;/li&gt;
-        &lt;li&gt;籍贯：浙江&lt;/li&gt;
-        &lt;li&gt;政治面貌：无党派民主人士&lt;/li&gt;
-        
-    &lt;/ul&gt;
-
-    &lt;h1&gt;自我介绍&lt;/h1&gt;
-    &lt;p&gt;本人就读于杭州电子科技大学的计算
-        机学院，在专业分流中选择了软件工
-        程专业。本人成绩一般但仍旧希望学
-        习更多知识，提升自身实力，故在本
-        学期选择了web前端开发课程，希望
-        在这里能有所收获。
-    &lt;/p&gt;
-    &lt;h1&gt;所获院级及以上奖项列表&lt;/h1&gt;
-    &lt;table border="2"&gt;
-        &lt;thead&gt;
-            &lt;th&gt;时间&lt;/th&gt;
-            &lt;th&gt;奖项名&lt;/th&gt;
-
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-            &lt;td&gt;
-                NULL
-            &lt;/td&gt;
-            &lt;td&gt;
-                NILL
-            &lt;/td&gt;
-
-        &lt;/tbody&gt;
-    &lt;/table&gt;
-    &lt;h1&gt;已发表论文或专利列表&lt;/h1&gt;
-    &lt;table border="2"&gt;
-        &lt;thead&gt;
-            &lt;th&gt;时间&lt;/th&gt;
-            &lt;th&gt;项目名&lt;/th&gt;
-
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-            &lt;td&gt;
-                NULL
-            &lt;/td&gt;
-            &lt;td&gt;
-                NILL
-            &lt;/td&gt;
-
-        &lt;/tbody&gt;
-    &lt;/table&gt;
-    &lt;h1&gt;喜爱的作品&lt;/h1&gt;
-    &lt;pre&gt;
-                登金陵凤凰台
-
-        凤凰台上凤凰游，凤去台空江自流。
-        吴宫花草埋幽径，晋代衣冠成古丘。
-        三山半落青天外，二水中分白鹭洲。
-        总为浮云能蔽日，长安不见使人愁。
-
-    &lt;/pre&gt;
-&lt;/section&gt;
-&lt;section&gt;
-    &lt;h1&gt;本页源码&lt;/h1&gt;
-    &lt;code&gt;
-        
-    &lt;/code&gt;
-&lt;/section&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-    </code>
-</section>
-
+<body onload="getdb()">
+    <h2>欢迎来到电子技术日常交流小站</h2>
+    <a href="./home/home.html">前往首页</a>
+    <p id="p1"></p>
+    <h3>说明:<br>1.验收者的服务器应确保3000端口可以使用,
+        安装npm fs，再运行server.js。<br>
+        这不是必须的，仅仅是实现
+        服务器存储，不影响其他功能展示。
+        <br>（经本人测试，服务端存储确实可以正常工作，
+        在验收人未发现错误的情况下，
+        应当认为本网站已实现内容的永久存储）
+        <br>2.帖子的编辑页链接在about页面的底部链接处。<br>
+        <br>(为了方便验收，没有设置密码)
+        3.应从index进入网站，否则必然出现数据异常。<br>
+        （这是为了节省宝贵的网络与内存资源）<br>
+        </h3>
 </body>
 </html>

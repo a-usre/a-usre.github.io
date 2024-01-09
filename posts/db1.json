@@ -1,0 +1,123 @@
+{
+    "numberofposts":{"num":5} ,
+    "posts":[
+        {
+            "id" : 0,
+            "type":0,
+            "title":"a post for testing(deleting)",
+            "content":
+            {
+                "text0":"text0",
+                "img0":"/x.png",
+                "text1":"text1\nhello world"
+            },
+            "time":"2023.12.28 19:43",
+            "commentnum":1,
+            "comments":[
+                {
+                    "author":"author",
+                    "content":"content",
+                    "time":"2023.12.28 20:43"
+                }
+            ]
+        },
+        {
+            "id" : 1,
+            "type":3,
+            "title":"another post for testing",
+            "content":
+            {
+                "text0":"para1",
+                "img0":"/posts/imgs/1.png",
+                "text1":"para2\n9dda9705b65320b619e20ebd935c4e0d353750813"
+            },
+            "time":"2023.12.31 19:43",
+            "commentnum":2,
+            "comments":[
+                {
+                    "author":"author1",
+                    "content":"1000万张图啊，怎么说练就练啊",
+                    "time":"2023.12.31 20:43"
+                },
+                {
+                    "author":"author2",
+                    "content":"那我乖乖交钱去了",
+                    "time":"2023.12.31 22:43"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "type":4,
+            "title":"出售真满血版4090显卡盒子",
+            "content":
+            {
+                "text0":"基准售价：100",
+                "img0":"/posts/imgs/3.png",
+                "text1":"1.11前价高者得，送货上门。"
+            },
+            "time":"2024.1.8 14:54",
+            "commentnum":1,
+            "comments":[
+                {
+                    "author":"author1",
+                    "content":"🤢，散了吧，盒子而已",
+                    "time":"2024.1.8 15:34"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "type":2,
+            "title":"关于root的介绍（抄来的）",
+            "content":
+            {
+                "text0":"2022年回答这个问题。认为有必要的早已经root，而问这个问题的大概不会准备root。                root最大的利弊同时就是用户掌控了手机的控制权。如果你对root有一定了解，手机系统SELinux始终保持为enforcing模式，不乱安装未知的app，不乱授权root权限给第三方app，不把系统的签名验证破坏，不随意修改包括system分区在内的文件，明白自己利用root干了什么事情，懂得一定程度隐藏root权限，明白提前备份数据，会使用recovery/fastboot/9008刷机来解决万一出现的问题，那么root对于你来说利大于弊，反之弊大于利。",
+                "text1":"来源：知乎",
+                "text2":"鉴于国内手机的链式启动和毒瘤应用，以及各系统自己的资源占用，root最大的功效是压后台...大部分人root完第一反应都是黑阈、冰箱、绿守，系统无用app全部冻结，黑阈压后台。然后系统的设置会更自由一点，比如说妈妈再也不担心你不能刷开发版了。一些隐藏掉的系统设置，什么纸质护眼，高级屏幕设定，新版摄像机，包括核心破解后的新版本桌面啥的你都可以直接装了。还有就是硬件限制的突破了，比如刷新率的超频老机子强行上90，新机子全局高刷；GPU降压超频等等。有好调度的会刷个好的调度，有好内核的会换个好内核。再就是软件优化。一个是广告跳过，李跳跳这样的一般足够，大圣、灭霸之类的跳过更复杂。像灭霸这样还可以移花接木，玩得更六。二是锁定后台，用进程锁之类的免杀...现在有些系统杀后台太变态。三是一些自动任务，强化软件，比如微X模块领红包，防回撤，自动点赞啥的。四是lucky....额。                弊端嘛。。。现在大量软件检测root，银、政类的是怕不安全，游戏类的是怕外挂。会直接闪退，不过现在社区也进步了，用magisk alpha版本，配合zygisk就完事"
+            },
+            "time":"2024.1.1 12:36",
+            "commentnum":2,
+            "comments":[
+                {
+                    "author":"author1",
+                    "content":"转载投自制是吧w(ﾟДﾟ)w",
+                    "time":"2024.1.1 14:36"
+                },
+                {
+                    "author":"author2",
+                    "content":"root一律失去保修, 别问我怎么知道的。",
+                    "time":"2024.1.1 15:36"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "type":1,
+            "title":"直观体现显卡性能差距————手机和电脑都能跑的volume_shader",
+            "content":
+            {
+                "text0":"网址：https://cznull.github.io/vsbm",
+                "text1":"旗舰手机和电脑的显卡差距还挺小，也就15倍吧",
+                "img0":"/posts/imgs/2.png"
+            },
+            "time":"2023.12.31 19:43",
+            "commentnum":2,
+            "comments":[
+                {
+                    "author":"author1",
+                    "content":"🤡可恶，我的15pro秒天秒地，还打不过你区区4090？",
+                    "time":"2023.12.31 20:43"
+                },
+                {
+                    "author":"author2",
+                    "content":"救救孩子，865只有一帧，机身变得好热，退不出来了🥵",
+                    "time":"2023.12.31 22:43"
+                }
+            ]
+        }
+    ]
+    
+        
+    
+}

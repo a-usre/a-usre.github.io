@@ -6,13 +6,17 @@
     <link rel="stylesheet" type="text/css" href="../admin/css/admin.css">
     <title>admin</title>
     <script src="js/t.js"></script>
-</head>
+    <script src="../jQuery.js"></script>
+    <script src="../posts/js/global.js"></script>
+    <script src="./js/1.js"></script>
+</head >
 
-<body>
+<body onload="allpostsforadmin()">
+    <!-- <button onclick=>show</button> -->
     <div class="A">
-        <p id="a1">前端编辑区</p>
+        <p id="a1">posts admin</p>
     </div>
-    <div class="B">
+    <!-- <div class="B">
         <table>
             <thead>
                 <tr>
@@ -27,8 +31,58 @@
     <button type="button" onclick="delLine()">delete final line</button>
     <button type="button" onclick="delLineAll()">delete all lines</button>
     </div>
+    <div>
+        <p id="testpost"></p>
+        <button type="button" onclick="showpost()">show test post</button>
+        <button type="button" onclick="sendjson()">modify</button>
+        <button type="button" onclick="showgdata()">showgdata</button>
+    </div> -->
+    <div class="B" >
+        <table border="1">
+            <thead>
+                <tr id="b1">
+                    <th>
+                        title
+                    </th>
+                    <th>
+                        type id
+                    </th>
+                    <th>
+                        time of creation/last modification 
+                    </th>
+                    <th>
+                        actions
+                    </th>
+
+                </tr>
+            </thead>
+            <tbody id="b2">
+                <!-- <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <div id="D">
+        <p id="d1">
+            
+        </p>
+
+    </div>
+    <div id="E"></div>
+
     <div class="C">
-        <a href="../home/home.html">返回首页</a>
+        <br>
+        <button onclick="sendjson()">save all to server</button>
+        <a href="../home/home.html"><br>back to home page</a>
     </div>
 
 </body>

@@ -2,31 +2,46 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="./css/home.css">
+<script src="../posts/js/global.js"></script>
+<script src="./js/1.js"></script>
 <title>home</title>
 </head>
-<body>
+<body onload="renderall()">
 <div class="A">
     <a id="a1" href="home.html">首页</a>
-    <a id="a2" href="../main/main.html">博文列表</a>
+    <a id="a2" href="../main/main.html">文章列表</a>
     <a id="a3" href="../about/about.html">关于作者</a>
 </div>
+<div>
+    
+</div>
+<h2 id="title" class="typing">来看看我们的最新文章!</h2>
 <div class="B">
+    
     <div id="b1">
-
+        <h2 id="h21"></h2>
+        <h3 id="h31"></h3>
+        <p id="p1"></p>
         
     </div>
-    <a class="b11">查看全文...</a>
+    <button id="b11">查看全文...</button>
     <div id="b2">
+        <h2 id="h22"></h2>
+        <h3 id="h32"></h3>
+        <p id="p2"></p>
 
         
     </div>
-    <a class="b11">查看全文...</a>
+    <button id="b12" >查看全文...</button>
     <div id="b3">
+        <h2 id="h23"></h2>
+        <h3 id="h33"></h3>
+        <p id="p3"></p>
 
         
     </div>
-    <a class="b11">查看全文...</a>
+    <button id="b13">查看全文...</button>
     <!--3 newest posts-->
 </div>
 

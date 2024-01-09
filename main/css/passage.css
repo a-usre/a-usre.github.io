@@ -33,23 +33,3 @@
     flex-grow: 2;
     background-color: yellow;
 }
- #D{
-    display: grid;
-    grid-auto-columns: 40em;
-    grid-auto-rows: 25em;
-    justify-content: center;
-} 
-
-
-.d{
-    background-color: rgb(200, 215, 236);
-    border-style: solid;
-    border-width: 2px;
-    background-color: rgb(154, 178, 212)
-}
-#in1
-{
-    background-color: rgb(215, 229, 249);
-    width: 400px;
-    height: 1.2em;
-}

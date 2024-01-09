@@ -2,15 +2,47 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+<script src="../posts/js/global.js"></script>
+<script src="./js/1.js"></script>
 <title>main</title>
 </head>
-<body>
+<body onload="init()">
     <div class="A">
         <a id="a1" href="../home/home.html">首页</a>
-        <a id="a2" href="../main/main.html">博文列表</a>
+        <a id="a2" href="../main/main.html">文章列表</a>
         <a id="a3" href="../about/about.html">关于作者</a>
     </div>
-    
+    <br>
+        <label id="l1">文字搜索:</label>
+        <textarea id="in1"></textarea>
+    <div id="B">
+        <label id="l2">类型搜索:</label>
+        <form id="f1">  
+        <input type="radio" name="type" value=0>测试文章
+        <input type="radio" name="type" value=1>趣事轶闻
+        <input type="radio" name="type" value=2>科普
+        <input type="radio" name="type" value=3>新闻热点
+        <input type="radio" name="type" value=4>物品出售
+        <input type="radio" name="type" value=-1 checked>全选
+        </form>
+    </div>
+
+    <div id="C">
+      <!--   <label >内容搜索:</label>
+    <form id="f2">
+        <input id="f2" type="checkbox" name="content" value="image">有图
+        <input type="radio" name="content" value="long">长文章(暂时没有长文章) 
+    </form> -->
+        <br>
+        <button onclick="send_list()">确定</button>
+    </div>
+    <div id="D">
+    </div>
+    <!-- <div id="E">
+        
+    </div>
+     -->
 </body>
 </html>
